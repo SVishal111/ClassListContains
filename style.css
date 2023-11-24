@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.main1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.main2 {
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: cyan
+}
+
+.heroSection {
+    background-color: #9595ff;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroSection1 {
+    background-image: url("https://e0.pxfuel.com/wallpapers/731/660/desktop-wallpaper-programming-background-cool-programming.jpg");
+}
+
+.heroSection2 {
+    background-image: url("https://img.freepik.com/free-vector/digital-white-background-with-binary-code-numbers_1017-25335.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1700784000&semt=ais");
+}
+
+.jumbotron {
+    width: 50%;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+}
+
+.jumbotron p {
+    margin: 15px 0px;
+}
+
+.btn {
+    height: 50px;
+    width: 230px;
+    font-size: 16px;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn2 {
+    border: none;
+    border-radius: 0px;
+    background-color: skyblue;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+/* responsive part begins */
+
+
+@media (max-width:1000px) {
+    .jumbotron {
+        width: 70%;
+    }
+}
+
+@media (max-width:700px) {
+    .jumbotron {
+        width: 90%;
+    }
+}
+
+@media (max-width:500px) {
+    .jumbotron {
+        width: 100%;
+    }
+}
+
+@media (max-width:430px) {
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+
+    .jumbotron p {
+        font-size: 12px;
+    }
+
+    .btn {
+        height: 45px;
+        width: 150px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:350px) {
+    .jumbotron h1 {
+        font-size: 27px;
+    }
+}
